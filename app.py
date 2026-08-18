@@ -16,7 +16,7 @@ if not API_KEY:
 
 # Initialize official unified Google Gen AI SDK
 client = genai.Client(api_key=API_KEY)
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.6-flash"
 DB_FILE = "enterprise_knowledge_base.json"
 
 # 2. LOCAL MEMORY FILE STORAGE HANDLERS
